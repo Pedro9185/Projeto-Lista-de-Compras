@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.p-digite-seu-nome {
+  font-weight: 400;
+}
+
+#tela_nome {
+  width: 50%;
+  height: 50%;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.ctn-boas-vindas {
+  width: 100%;
+  height: 100%;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+.input_item {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  background-color: rgb(202, 200, 200);
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(55, 152, 231);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.hidden {
+  display: none !important;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="tela_nome">
+        <div class="ctn-boas-vindas">
+            <h2>Bem vindo!</h2>
+            <p class="p-digite-seu-nome">Digite seu nome para começar</p>
+            <input type="text" placeholder="Seu nome" id="name" class="input_item">
+            <button id="btn_entrar" class="btn">Entrar</button>
+        </div>
+    </div>
+
+    <div id="container" class="hidden">
+        <h1>Lista de Compras</h1>
+        <div id="mensagem_nome"></div>
+        <ul id="lista_compras"> </ul>
+        <div class=" lista_compra">
+            <input type="text" id="input_item" class="input_item" placeholder="Adicionar item...">
+            <button id="btn_adicionar_item" class="btn">Adicionar</button>
+        </div>
+        <div class="staus_lista">
+            <span id="contador"></span>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
